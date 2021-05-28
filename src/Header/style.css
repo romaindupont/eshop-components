@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Adobe Clean";
+  src: url("../assets/font/AdobeCleanSerif/AdobeCleanSerif-Medium.otf") format("otf"),
+         url("../assets/font/AdobeCleanSerif/AdobeCleanSerif-Bold.otf") format("otf");
+ }
+
+.eshop-header {
+  display: flex;
+  width: 100vw;
+  height: 75px;
+  background: linear-gradient(51deg, rgba(0,204,246,1) 0%, rgba(83,57,244,1) 90%);
+  box-shadow: 0px 6px 10px rgba(0,0,0,0.8);
+}
+
+.eshop-header-logo {
+  width: 200px;
+  height: 50px;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+.eshop-header-title {
+  color: white;
+  font-family: 'Adobe Clean';
+  font-weight: 900;
+  margin-left: 4rem;
+}
