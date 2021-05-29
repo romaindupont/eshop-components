@@ -1,4 +1,5 @@
 import BientotDispo from './BientotDispo';
+import TableauBord from './TableauBord';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
         <BientotDispo />
       </Route>
       <Route exact path="/tableau">
-        Tableau de Bord
+        <TableauBord />
       </Route>
 
     </div>
