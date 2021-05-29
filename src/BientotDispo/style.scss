@@ -1,0 +1,80 @@
+@use '../vars';
+
+.eshop-dispo {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: vars.$gradientHome;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.eshop-dispo-all {
+  margin: 0 auto;
+}
+.eshop-dispo-title {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+  display: inline-block;
+  top: -35px;
+  left: 75px;
+  position: relative;
+
+  @media only screen and (min-width: 576px) {
+    font-size: 2rem;
+    top: -40px;
+    left: 170px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
+    top: -50px;
+    left: 120px;
+  }
+  @media only screen and (min-width: 1024px) {
+    font-size: 4rem;
+    top: -70px;
+    left: 105px;
+  }
+}
+
+.eshop-dispo-image {
+  position: relative;
+  width: 150px;
+  margin: auto;
+  @media only screen and (min-width: 576px) {
+    width: 150px;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 200px;
+  }
+  @media only screen and (min-width: 1024px) {
+    width: 300px;
+  }
+}
+
+.eshop-dispo-subtitle {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+  display: inline-block;
+  top: 40px;
+  left: -105px;
+  position: relative;
+  @media only screen and (min-width: 576px) {
+    font-size: 2rem;
+    top: 40px;
+    left: -175px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
+    top: 60px;
+    left: -160px;
+  }
+  @media only screen and (min-width: 1024px) {
+    font-size: 4rem;
+    top: 75px;
+    left: -100px;
+  }
+}

@@ -1,0 +1,65 @@
+@use '../vars';
+
+.eshop-header {
+  display: flex;
+  width: 100vw;
+  height: 75px;
+  background: vars.$gradientHeader;
+  box-shadow: 0px 6px 10px rgba(0,0,0,0.8);
+  justify-content: space-between;
+}
+
+.eshop-header-left {
+  display: flex;
+}
+.eshop-header-logo {
+  width: 200px;
+  height: 50px;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+.eshop-header-title {
+  color: white;
+  font-weight: 900;
+
+}
+.eshop-header-right {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.eshop-bells {
+  position: relative;
+  margin: auto;
+  display: block;
+}
+.eshop-header-bell {
+  width: 10%;
+  height: 50%;
+  margin: auto;
+  
+  
+}
+.eshop-header-number {
+  font-size: 0.8rem;
+  color: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+  top: -5px;
+  left: 16px;
+}
+.eshop-header-title2 {
+  color: white;
+  font-weight: 900;
+}
+.eshop-header-circle {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  margin: auto 1.5rem;
+}
