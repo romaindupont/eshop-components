@@ -1,6 +1,7 @@
 .eshop {
   text-align: center;
   font-family: 'Carter One', cursive;
+  display: flex;
 }
 
 
