@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
 }
 .eshop-dispo-all {
@@ -18,29 +19,45 @@
   color: white;
   margin: 0;
   display: inline-block;
-  top: -35px;
-  left: 75px;
+  top: 215px;
+  left: -70px;
   position: relative;
-
-  @media only screen and (min-width: 576px) {
-    font-size: 2rem;
-    top: -40px;
-    left: 170px;
+  & > span {
+    font-size: 1.5rem;
+    position: absolute;
+    right: -30px;
+    top: 25px;
+    @media only screen and (min-width: 768px) {
+      font-size: 1.5rem;
+      right: -30px;
+      top: 25px;
+    }
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.5rem;
+      top: 45px;
+      right: -35px;
+    } 
+    @media only screen and (min-width: 1200px) {
+      font-size: 1.5rem;
+      top: 65px;
+      right: -35px;
+    }
+  }
+   @media only screen and (min-width: 576px) {
+    font-size: 1.5rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
-    top: -50px;
-    left: 120px;
+    font-size: 2rem;
+    top: 190px;
+    left: -70px;
   }
   @media only screen and (min-width: 1024px) {
-    font-size: 4rem;
-    top: -70px;
-    left: 105px;
-  }
+    top: 180px;
+  } 
   @media only screen and (min-width: 1200px) {
     font-size: 4rem;
-    top: -70px;
-    left: 210px;
+    top: 290px;
+    left: -130px;
   }
 }
 
@@ -63,31 +80,73 @@
 }
 
 .eshop-dispo-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   margin: 0;
   display: inline-block;
-  top: 40px;
-  left: -105px;
+  top: -115px;
+  left: 0px;
   position: relative;
-  @media only screen and (min-width: 576px) {
-    font-size: 2rem;
-    top: 40px;
-    left: -175px;
-  }
-  @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
-    top: 60px;
-    left: -160px;
-  }
   @media only screen and (min-width: 1024px) {
-    font-size: 4rem;
-    top: 75px;
-    left: -100px;
+    font-size: 1.5rem;
   }
   @media only screen and (min-width: 1200px) {
-    font-size: 4rem;
-    top: 75px;
-    left: -210px;
+    font-size: 1.5rem;
   }
+}
+
+.eshop-dispo-button {
+  background: #EF0396;
+  padding: 1rem 4rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: -1px 3px 2px #00000029;
+}
+.partenaire {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+.contact {
+  position: relative;
+  top: -60px;
+}
+.eshop-dispo-website {
+  font-weight: normal;
+    color: white;
+    position: absolute;
+    text-shadow: -5px 0px 0px #000;
+    right: 90px;
+    bottom: 300px;
+    transform: rotate(-6deg);
+    font-size: 0.7rem;
+    @media only screen and (min-width: 576px) {
+      font-size: 0.8rem;
+      right: 90px;
+      bottom: 300px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 0.8rem;
+      right: 240px;
+      bottom: 285px;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      right: 315px;
+      bottom: 265px;
+    }
+    @media only screen and (min-width: 1200px) {
+      font-size: 1.4rem;
+      top: 490px;
+      left: 550px;
+    }
+    
+}
+.eshop-dispo-contact {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  position: relative;
+  top: -50px;
 }
