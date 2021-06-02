@@ -3,5 +3,156 @@
   font-family: 'Carter One', cursive;
   display: flex;
 }
-
-
+.eshop-dispo {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(173deg, rgba(0,204,246,1) 0%, rgba(83,57,244,1) 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.eshop-dispo-all {
+  margin: 0 auto;
+}
+.eshop-dispo-title {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+  display: inline-block;
+  top: 215px;
+  left: -70px;
+  position: relative;
+}
+.eshop-dispo-title > span {
+  font-size: 1.5rem;
+  position: absolute;
+  right: -30px;
+  top: 25px;  
+}
+.eshop-dispo-image {
+  position: relative;
+  width: 150px;
+  margin: auto;
+} 
+.eshop-dispo-subtitle {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+  display: inline-block;
+  top: -115px;
+  left: 0px;
+  position: relative;
+}
+.eshop-dispo-button {
+  background: #EF0396;
+  padding: 1rem 4rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: -1px 3px 2px #00000029;
+}
+.partenaire {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+.contact {
+  position: relative;
+  top: -60px;
+}
+.eshop-dispo-website {
+  font-weight: normal;
+    color: white;
+    position: absolute;
+    text-shadow: -5px 0px 0px #000;
+    right: 90px;
+    bottom: 300px;
+    transform: rotate(-6deg);
+    font-size: 0.7rem;        
+}
+.eshop-dispo-contact {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  position: relative;
+  top: -50px;
+}
+      
+@media only screen and (min-width: 576px) {
+ .eshop-dispo-title {
+    font-size: 1.5rem;
+  }
+  .eshop-dispo-image {
+    width: 150px;
+  }
+  .eshop-dispo-website {
+    font-size: 0.8rem;
+    right: 90px;
+    bottom: 300px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .eshop-dispo-title > span {
+    font-size: 1.5rem;
+    right: -30px;
+    top: 25px;
+  }
+  .eshop-dispo-title {
+    font-size: 2rem;
+    top: 190px;
+    left: -70px;
+  }
+  .eshop-dispo-image {
+    width: 200px;
+  }
+  .eshop-dispo-website {
+    font-size: 0.8rem;
+    right: 240px;
+    bottom: 285px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .eshop-dispo-title > span {
+    font-size: 1.5rem;
+    top: 45px;
+    right: -35px;
+  }
+ .eshop-dispo-title {
+    top: 180px;
+  }
+  .eshop-dispo-image {
+    width: 300px;
+  }
+  .eshop-dispo-subtitle {
+    font-size: 1.5rem;
+    }
+  .eshop-dispo-website {
+    right: 315px;
+    bottom: 265px;
+  }
+}  
+@media only screen and (min-width: 1200px) {
+  .eshop-dispo-title > span {
+    font-size: 1.5rem;
+    top: 65px;
+    right: -35px;
+  }
+  .eshop-dispo-title {
+    font-size: 4rem;
+    top: 290px;
+    left: -130px;
+  }
+   .eshop-dispo-image {
+    width: 400px;
+  }
+  .eshop-dispo-subtitle {
+    font-size: 1.5rem;
+  }
+  .eshop-dispo-website {
+    font-size: 1.4rem;
+    top: 490px;
+    left: 550px;
+  }
+}
